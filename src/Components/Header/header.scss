@@ -1,0 +1,33 @@
+.header {
+    width: 100vw;
+    height: 150px;
+    background-color: gray;
+    @include displayDirection(row);
+    color: whitesmoke;
+    animation: fadeIn 5s forwards;
+  
+    h1 {
+      font-size: 50px;
+      font-style: italic;
+      animation: colorChange 3s ease-in;
+    }
+  }
+  
+  @keyframes fadeIn {
+    from {
+      background-color: gray;
+    }
+    to {
+      background-color: rgb(120, 149, 158); 
+    }
+  }
+  
+  @keyframes colorChange {
+    from {
+      color: rgb(181, 249, 247);
+    }
+    to {
+      color: whitesmoke
+    }
+  }
+  

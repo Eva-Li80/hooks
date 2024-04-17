@@ -1,0 +1,18 @@
+
+.toggle{
+    @include displayDirection(column);
+    padding: 75px;
+
+    .sant{
+        color: green;
+    }
+
+    .falskt{
+        color: red;
+    }
+
+    button{
+        padding: 25px;
+        margin: 20px;
+    }
+}

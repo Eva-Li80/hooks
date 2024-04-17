@@ -1,0 +1,15 @@
+/* app */
+.app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .app-counter{
+        display: flex;
+        flex-direction: row;
+    }
+
+}
+
+

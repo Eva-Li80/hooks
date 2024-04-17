@@ -1,0 +1,30 @@
+.counter {
+  @include displayDirection(column);
+  height: 100vh;
+  margin: 50px;
+
+  .title {
+    font-size: 25px;
+  }
+
+  .count {
+    font-size: 20px;
+  }
+
+  button {
+    width: 150px;
+    height: 100px;
+    padding: 25px;
+    margin: 10px;
+  }
+
+  .sant {
+    background-color: green;
+    padding: 25px;
+  }
+
+  .falskt {
+    background-color: red;
+    padding: 25px;
+  }
+}

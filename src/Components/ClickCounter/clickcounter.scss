@@ -1,0 +1,16 @@
+.clickcounter {
+  @include displayDirection(column);
+  .click {
+    color: red;
+    font-size: 30px;
+  }
+
+  .btn {
+    @include displayDirection(row);
+    margin: 25px;
+    button {
+      padding: 20px;
+      margin: 10px;
+    }
+  }
+}
