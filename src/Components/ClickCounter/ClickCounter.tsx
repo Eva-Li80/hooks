@@ -1,4 +1,3 @@
-import React from "react";
 import { useClickCounter } from "../../Hooks/CustomHooks/useClickCounter";
 
 type ClickCounterProps = {
@@ -6,7 +5,7 @@ type ClickCounterProps = {
   buttonTextRemove: string;
 };
 
-const ClickCounter: React.FC<ClickCounterProps> = ({
+const ClickCounter = ({
   buttonTextRemove,
   buttonTextAdd,
 }: ClickCounterProps) => {
